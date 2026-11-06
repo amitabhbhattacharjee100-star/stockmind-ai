@@ -1,0 +1,4 @@
+[mcp_servers.questrade]
+url = "https://mcp.questrade.com/v1/brokerage/mcp"
+startup_timeout_sec = 30
+tool_timeout_sec = 120
