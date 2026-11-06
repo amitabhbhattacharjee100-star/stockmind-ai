@@ -1,0 +1,20 @@
+# Credentials and local secrets
+.env
+.env.*
+!.env.example
+.grok/mcp_credentials.json
+**/mcp_credentials.json
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local data and logs
+*.log
+logs/
+data/private/
